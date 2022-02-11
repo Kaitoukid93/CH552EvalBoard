@@ -1,0 +1,49 @@
+(footprint "SMD 2410 fuse" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61C6D2EB)
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8d53e9c9-18a3-4109-aa53-d44adf9141cf)
+  )
+  (fp_text value "SMD 2410 fuse" (at 0 1 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 5662e5d6-bc2a-4462-87fe-107c6d9ab49d)
+  )
+  (fp_line (start -1.06 2.22) (end -3.61 5.22) (layer "F.SilkS") (width 0.12) (tstamp cc2cc001-3014-4352-a9f3-8f23cffbd334))
+  (fp_line (start -6.071494 1.840041) (end 1.331087 1.840041) (layer "Dwgs.User") (width 0.09) (tstamp 033d1a03-0224-4be7-bf03-d823040c5124))
+  (fp_line (start 1.08 2.12) (end 1.08 5.27) (layer "Dwgs.User") (width 0.09) (tstamp 3f7ea723-dba9-4dc0-bf29-c9e6ac75f873))
+  (fp_line (start -6.071494 5.549959) (end -6.071494 1.840041) (layer "Dwgs.User") (width 0.09) (tstamp 4388a610-6af2-4754-ae87-0d8d8eb1ac3a))
+  (fp_line (start -0.88 5.27) (end -0.88 2.12) (layer "Dwgs.User") (width 0.09) (tstamp 4ac39e6e-a6ad-43fd-a8a9-7dcc022ec2a8))
+  (fp_line (start -5.79 5.27) (end -5.79 2.12) (layer "Dwgs.User") (width 0.09) (tstamp 575a00a1-dec2-49af-ab3a-df281627a881))
+  (fp_line (start -0.88 2.12) (end 1.08 2.12) (layer "Dwgs.User") (width 0.09) (tstamp 754bf98a-8769-4626-8a48-f7ea25e97916))
+  (fp_line (start -3.83 5.27) (end -5.79 5.27) (layer "Dwgs.User") (width 0.09) (tstamp 8e2bb03d-9e85-4adc-9962-f0a6d5e6180c))
+  (fp_line (start -5.79 2.12) (end -3.83 2.12) (layer "Dwgs.User") (width 0.09) (tstamp ad88d1c1-a355-41d5-9f44-f354b8bdcfb9))
+  (fp_line (start -3.83 2.12) (end -3.83 5.27) (layer "Dwgs.User") (width 0.09) (tstamp afde7c3c-69e5-42e6-a877-f5b517d6b101))
+  (fp_line (start 1.331087 5.549959) (end -6.071494 5.549959) (layer "Dwgs.User") (width 0.09) (tstamp d063ba46-22f6-4e50-9d5e-95f13fbaf268))
+  (fp_line (start 1.331087 1.840041) (end 1.331087 5.549959) (layer "Dwgs.User") (width 0.09) (tstamp ec7425db-97df-4e3f-a1d9-7fa3fa52762c))
+  (fp_line (start 1.08 5.27) (end -0.88 5.27) (layer "Dwgs.User") (width 0.09) (tstamp f748c853-29f7-4110-bf47-e0834adfce78))
+  (pad "1" smd roundrect (at -4.81 3.69 90) (size 3.15 1.96) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp e2bca42a-ec74-4cf4-ad33-e5df024b4233))
+  (pad "2" smd roundrect (at 0.11 3.69 90) (size 3.15 1.96) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 35af6bdd-53ff-42e4-b72a-2b3ff4a35922))
+  (group "" (id 114173d4-7413-449e-a4bf-f5b2e91f1f4e)
+    (members
+      033d1a03-0224-4be7-bf03-d823040c5124
+      3f7ea723-dba9-4dc0-bf29-c9e6ac75f873
+      4388a610-6af2-4754-ae87-0d8d8eb1ac3a
+      4ac39e6e-a6ad-43fd-a8a9-7dcc022ec2a8
+      575a00a1-dec2-49af-ab3a-df281627a881
+      754bf98a-8769-4626-8a48-f7ea25e97916
+      8e2bb03d-9e85-4adc-9962-f0a6d5e6180c
+      ad88d1c1-a355-41d5-9f44-f354b8bdcfb9
+      afde7c3c-69e5-42e6-a877-f5b517d6b101
+      d063ba46-22f6-4e50-9d5e-95f13fbaf268
+      ec7425db-97df-4e3f-a1d9-7fa3fa52762c
+      f748c853-29f7-4110-bf47-e0834adfce78
+    )
+  )
+  (model "I:/Ambino Wireless LED controller and Power Supply/3D Resource/2410fuse.step"
+    (offset (xyz -5.27 4.6 -5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)
